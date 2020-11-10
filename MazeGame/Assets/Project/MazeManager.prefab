@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5248068239660313329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5248068239660313335}
+  - component: {fileID: 5248068239660313328}
+  m_Layer: 0
+  m_Name: MazeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5248068239660313335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5248068239660313329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5248068239660313328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5248068239660313329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92728d206c9d445db623b7d151195e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  extendNum: 0
+  zInc: 42
+  xDev: 27
+  xStart: 513
+  zStart: 409
+  empty: {fileID: 8731187294962361496, guid: b6d5d9db0791b49bbb84696b064a3982, type: 3}
+  left: {fileID: 8893395926843428807, guid: a37eb2534ed214b41af814f3e924a60a, type: 3}
+  right: {fileID: 235731779452759881, guid: 63e34dc9ed54349c38a37bfd8fff64b6, type: 3}
+  up: {fileID: 4427110730948778095, guid: 20f660f6b21ee4f68afc3f3d232c9e70, type: 3}
+  down: {fileID: 2475140263793618474, guid: abff0fc737ec647c8908ff26d86f67b5, type: 3}
+  upleft: {fileID: 6647285017461167549, guid: c759493613f4c42698200d7cf9dc2d44, type: 3}
+  upright: {fileID: 2977587491413905968, guid: 1e6756c526d2f473cb0453ff5a26b59e, type: 3}
+  downleft: {fileID: 3336440564512595531, guid: b96c2a81fdcdf412ea33c0697c4eea85,
+    type: 3}
+  downright: {fileID: 5746675259519234259, guid: 784073507b52b4082bc89b7a7120c4c0,
+    type: 3}
+  leftright: {fileID: 6244360485600469001, guid: e6a8f1e5404ee4885a168b6a8763ca40,
+    type: 3}
+  updown: {fileID: 6063331352188711893, guid: 813d11d1874c7499d8debfe84cfa8221, type: 3}
+  updownleft: {fileID: 8014334823030334242, guid: 97e17e38388e14a8194cdd5079cf0558,
+    type: 3}
+  updownright: {fileID: 7982321678709013129, guid: 9ff1673f6c2934ec7b8f52ec4258ca51,
+    type: 3}
+  upleftright: {fileID: 5659074309658128793, guid: 974eb344e7a564420b25425f5f8c8ec8,
+    type: 3}
+  downleftright: {fileID: 3758212118218666939, guid: 601105f3e32c141d8813e8d9e6543e5e,
+    type: 3}
+  bullet: {fileID: 2711061243487048145, guid: 3feab209a5e514006b75befd8a0e435c, type: 3}
